@@ -1297,6 +1297,11 @@
   "resolved" "https://registry.npmjs.org/@firebase/webchannel-wrapper/-/webchannel-wrapper-0.5.1.tgz"
   "version" "0.5.1"
 
+"@fontsource/alata@^4.5.0":
+  "integrity" "sha512-seoroxSLuvySRE+PU54rHjYHLeK8wdbrvPaUBFpI4imyahyh3JOvF7wGE32iPS/0RjHT1eHdyrIc/V5z4fHJ8g=="
+  "resolved" "https://registry.npmjs.org/@fontsource/alata/-/alata-4.5.0.tgz"
+  "version" "4.5.0"
+
 "@fontsource/inter@^4.5.0":
   "integrity" "sha512-2efK8Ru0LkuOYrEpiHPlV02YkTdIKGbezlxVNeA8/3c+tNt7P2aQPuiYYkVy7N4GA5LWSUVcLL/91MpCIjinOw=="
   "resolved" "https://registry.npmjs.org/@fontsource/inter/-/inter-4.5.0.tgz"
@@ -1305,6 +1310,11 @@
 "@fontsource/poppins@^4.5.0":
   "integrity" "sha512-RqgMIQqKHWNH3IUj+a0MAhlb4g5fftsXRTJ2bauefBmfM8Ja5q+qQZjKwyB/iCc+paJD320zFnLJ8G+y1ZyemQ=="
   "resolved" "https://registry.npmjs.org/@fontsource/poppins/-/poppins-4.5.0.tgz"
+  "version" "4.5.0"
+
+"@fontsource/raleway@^4.5.0":
+  "integrity" "sha512-Rzj90wbZQnNzazqzoiu5HzMEMdqMJLUVFOo699sinTXrZRm1aB5iX2HTiK2VlPnH4M6u8yYnJ7CebOyamfWlqw=="
+  "resolved" "https://registry.npmjs.org/@fontsource/raleway/-/raleway-4.5.0.tgz"
   "version" "4.5.0"
 
 "@fullhuman/postcss-purgecss@^3.1.3":
