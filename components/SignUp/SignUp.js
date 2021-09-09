@@ -136,7 +136,7 @@ const SignUp = () => {
         <CustomButton>Sign Up</CustomButton>
       </form>
       <Link href="/auth/signin">
-        <a className="hover:underline self-end">
+        <a className="hover:underline center">
           Already have an account? Sign in
         </a>
       </Link>

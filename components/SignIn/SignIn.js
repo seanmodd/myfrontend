@@ -79,7 +79,7 @@ const SignIn = () => {
             Sign In
           </CustomButton>
         </div>
-        <div className="flex flex-col md:flex-row flex-1 space-y-6 md:space-y-0 md:space-x-6">
+        {/* <div className="flex flex-col md:flex-row flex-1 space-y-6 md:space-y-0 md:space-x-6">
           <CustomButton
             type="button"
             inverted
@@ -96,12 +96,12 @@ const SignIn = () => {
           >
             Sign In with Google
           </CustomButton>
-        </div>
+        </div> */}
       </form>
-      <div className="flex flex-col items-start md:flex-row md:justify-between w-full">
-        <Link href="/profile/forgot-password">
+      <div className="flex flex-col items-start md:flex-row md:justify-center w-full">
+        {/* <Link href="/profile/forgot-password">
           <a className="hover:underline">Forgot password?</a>
-        </Link>
+        </Link> */}
         <Link href="/auth/signup">
           <a className="hover:underline">Don't have an account? Sign Up</a>
         </Link>

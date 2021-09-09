@@ -46,7 +46,7 @@ const Header = () => {
               The Goods Clothing
             </Text>
           </Link>
-          <MyHeader />
+          {/* <MyHeader /> */}
 
           <NavList styles="hidden md:flex" />
 
