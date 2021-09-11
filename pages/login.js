@@ -71,7 +71,7 @@ const Login = () => {
       <Button
         onClick={googleLogin}
         variant="outline"
-        textShadow="1px 1px 1px #8d8d8d75"
+        textShadow="1px 0.1px 4px #fefefe"
         leftIcon={<Box as={FaGoogle} color="red.500" />}
       >
         Login with Google

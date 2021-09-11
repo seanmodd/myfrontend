@@ -1,13 +1,12 @@
 // import
-import { createContext, useReducer } from 'react';
-// ! below import is not in the downloaded docs...
-import firebase from '../firebase';
+import { createContext, useReducer } from "react";
+
 // reducer
 const reducer = (state, action) => {
   switch (action.type) {
-    case 'LOGIN':
+    case "LOGIN":
       return { ...state, user: action.payload };
-    case 'LOGOUT':
+    case "LOGOUT":
       return { ...state, user: null };
     default:
       return state;
@@ -24,7 +23,6 @@ const Context = createContext({});
 
 // context provider
 const Provider = ({ children }) => {
-  console.log('MY CUSTOM PROVIDER IS ACTIVATED.');
   const [state, dispatch] = useReducer(reducer, intialState);
   const value = { state, dispatch };
   return <Context.Provider value={value}>{children}</Context.Provider>;

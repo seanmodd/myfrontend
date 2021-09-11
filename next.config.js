@@ -1,5 +1,5 @@
 module.exports = {
-	images: {
-		domains: ["i.ibb.co"],
-	},
+  env: {
+    api: 'http://localhost:8000/api',
+  },
 };
