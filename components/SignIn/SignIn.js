@@ -45,6 +45,7 @@ const SignIn = () => {
     const { name, value } = e.target;
 
     setUserCredentials({ ...userCredentials, [name]: value });
+    console.warn("I'VE SIGNED IN")
   };
 
   return (

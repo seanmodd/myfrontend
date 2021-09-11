@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Link from 'next/link';
+import { getSession, useSession } from 'next-auth/client';
 import { useRouter } from 'next/router';
 import { LockClosedIcon } from '@heroicons/react/outline';
 import CustomButton from '../CustomButton/CustomButton';
@@ -75,6 +76,8 @@ const SignUp = () => {
       ...userCredentials,
       [name]: value,
     });
+    console.warn("I'VE SIGNED UP");
+    console.warn(' getSession is as follows: ', getSession());
   };
 
   return (
