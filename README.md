@@ -1,4 +1,5 @@
-path for backend server: /Users/seanmodd/Dev/2021/strapi-atlas/README.md
+path for strapi backend server: /Users/seanmodd/Dev/2021/strapi-atlas
+path for google auth backend server: /Users/seanmodd/Dev/AuthFiles/036_reset_password_functionality/server
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
